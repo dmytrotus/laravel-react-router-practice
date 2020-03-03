@@ -69729,32 +69729,32 @@ function App() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_12__["Route"], {
-    path: "/",
+    path: "/admin",
     exact: true,
     component: _pages_Main__WEBPACK_IMPORTED_MODULE_3__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_12__["Route"], {
-    path: "/docs",
+    path: "/admin/docs",
     component: _pages_Docs__WEBPACK_IMPORTED_MODULE_4__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_12__["Route"], {
-    path: "/laracasts",
+    path: "/admin/laracasts",
     component: _pages_Laracasts__WEBPACK_IMPORTED_MODULE_5__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_12__["Route"], {
-    path: "/news",
+    path: "/admin/news",
     component: _pages_News__WEBPACK_IMPORTED_MODULE_6__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_12__["Route"], {
-    path: "/blog",
+    path: "/admin/blog",
     component: _pages_Blog__WEBPACK_IMPORTED_MODULE_7__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_12__["Route"], {
-    path: "/nova",
+    path: "/admin/nova",
     component: _pages_Nova__WEBPACK_IMPORTED_MODULE_8__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_12__["Route"], {
-    path: "/forge",
+    path: "/admin/forge",
     component: _pages_Forge__WEBPACK_IMPORTED_MODULE_9__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_12__["Route"], {
-    path: "/vapor",
+    path: "/admin/vapor",
     component: _pages_Vapor__WEBPACK_IMPORTED_MODULE_10__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_12__["Route"], {
-    path: "/github",
+    path: "/admin/github",
     component: _pages_Github__WEBPACK_IMPORTED_MODULE_11__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Links__WEBPACK_IMPORTED_MODULE_2__["default"], null));
 }
@@ -69787,23 +69787,23 @@ function Links() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "links"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/"
+    to: "/admin"
   }, "Main"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/docs"
+    to: "/admin/docs"
   }, "Docs"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/laracasts"
+    to: "/admin/laracasts"
   }, "Laracasts"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/news"
+    to: "/admin/news"
   }, "News"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/blog"
+    to: "/admin/blog"
   }, "Blog"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/nova"
+    to: "/admin/nova"
   }, "Nova"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/forge"
+    to: "/admin/forge"
   }, "Forge"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/vapor"
+    to: "/admin/vapor"
   }, "Vapor"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/github"
+    to: "/admin/github"
   }, "GitHub"));
 }
 

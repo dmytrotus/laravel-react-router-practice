@@ -25,17 +25,16 @@ function App(){
          
          
 
-            <Route path="/" exact component={Main}/>
-            <Route path="/docs" component={Docs}/>
-            <Route path="/laracasts" component={Laracasts}/>
-            <Route path="/news" component={News}/>
-            <Route path="/blog" component={Blog}/>
-            <Route path="/nova" component={Nova}/>
-            <Route path="/forge" component={Forge}/>
-            <Route path="/vapor" component={Vapor}/>
-            <Route path="/github" component={Github}/>
+            <Route path="/admin" exact component={Main}/>
+            <Route path="/admin/docs" component={Docs}/>
+            <Route path="/admin/laracasts" component={Laracasts}/>
+            <Route path="/admin/news" component={News}/>
+            <Route path="/admin/blog" component={Blog}/>
+            <Route path="/admin/nova" component={Nova}/>
+            <Route path="/admin/forge" component={Forge}/>
+            <Route path="/admin/vapor" component={Vapor}/>
+            <Route path="/admin/github" component={Github}/>
         
-
             <Links />
        
              

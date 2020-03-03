@@ -6,15 +6,15 @@ function Links(){
 	return (
         
 			<div className="links">
-                <Link to="/">Main</Link>
-		        <Link to="/docs">Docs</Link>
-                <Link to="/laracasts">Laracasts</Link>
-                <Link to="/news">News</Link>
-                <Link to="/blog">Blog</Link>
-                <Link to="/nova">Nova</Link>
-                <Link to="/forge">Forge</Link>
-                <Link to="/vapor">Vapor</Link>
-                <Link to="/github">GitHub</Link>
+                <Link to="/admin">Main</Link>
+		        <Link to="/admin/docs">Docs</Link>
+                <Link to="/admin/laracasts">Laracasts</Link>
+                <Link to="/admin/news">News</Link>
+                <Link to="/admin/blog">Blog</Link>
+                <Link to="/admin/nova">Nova</Link>
+                <Link to="/admin/forge">Forge</Link>
+                <Link to="/admin/vapor">Vapor</Link>
+                <Link to="/admin/github">GitHub</Link>
             </div>
        
 		)
