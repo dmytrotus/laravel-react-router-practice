@@ -22,54 +22,32 @@ import {
 function App(){
 	return(
 		    <div className="content">
-         <Router>
-          <Switch>
+         
+         
 
-            <Route path="/">
-              <Main /> 
-            </Route>
+            <Route path="/" exact component={Main}/>
+            <Route path="/docs" component={Docs}/>
+            <Route path="/laracasts" component={Laracasts}/>
+            <Route path="/news" component={News}/>
+            <Route path="/blog" component={Blog}/>
+            <Route path="/nova" component={Nova}/>
+            <Route path="/forge" component={Forge}/>
+            <Route path="/vapor" component={Vapor}/>
+            <Route path="/github" component={Github}/>
+        
 
-            <Route path="/docs">
-              <Docs /> 
-            </Route>
-
-            <Route path="/laracasts">
-              <Laracasts /> 
-            </Route>
-
-            <Route path="/news">
-              <News /> 
-            </Route>
-
-            <Route path="/blog">
-              <Blog /> 
-            </Route>
-
-            <Route path="/nova">
-              <Nova /> 
-            </Route>
-
-            <Route path="/forge">
-              <Forge /> 
-            </Route>
-
-            <Route path="/vapor">
-              <Vapor /> 
-            </Route>
-
-            <Route path="/github">
-              <Github /> 
-            </Route>
-
-          </Switch>
-        </Router>
+            <Links />
+       
              
-                <Links />
+                
             </div>
 		)
 }
 
 
 if (document.getElementById('root')) {
-    ReactDOM.render(<App />, document.getElementById('root'));
+    ReactDOM.render(
+      <Router>
+      <App />
+      </Router>, document.getElementById('root'));
 }
