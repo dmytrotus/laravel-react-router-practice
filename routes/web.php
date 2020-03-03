@@ -17,4 +17,4 @@ use Illuminate\Support\Facades\Route;
     return view('welcome');
 });*/
 
-Route::get('/', 'ReactController@index');
+Route::get('/{any}', 'ReactController@index')->where('any', '.*');
