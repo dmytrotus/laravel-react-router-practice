@@ -18,3 +18,5 @@ use Illuminate\Support\Facades\Route;
 });*/
 
 Route::get('/admin/{any}', 'ReactController@index')->where('any', '.*');
+
+Route::get('/', 'Wp\WpController@index');
