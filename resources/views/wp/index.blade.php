@@ -15,7 +15,7 @@
 
 
     <div class="container">
-      <h1>WordPress Laravel</h1>
+      <h1>WordPress Laravel</h1><a href="{{ route('updateDb') }}" class="btn btn-success">Обновити БД</a>
       
           <table class="table">
             <thead>
